@@ -20,8 +20,8 @@ int main() {
         };
     };
 
-    for (size_t i = 0; i<list.size(); i++){
-        cout << list.at(i) << endl;
+    for (int value: list ){
+        cout << value << " ";
     };
 
 
